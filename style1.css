@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #ccc; /* border around each side */
+    border-radius: 10px; /* rounded corners */
+}
+
+.left-side {
+    background-color: #f0f0f0; /* left side background color */
+}
+
+.right-side {
+    background-color: #e0e0e0; /* right side background color */
+}
+
+.judge-info {
+    margin-bottom: 20px;
+}
+
+.judge-info h2 {
+    margin-top: 0;
+}
+
+.judge-info p {
+    margin-bottom: 0;
+}
+
+.judge-details {
+    display: flex;
+    align-items: center;
+}
+
+.judge-details img {
+    max-width: 100px;
+    margin-right: 20px;
+    border:1px solid #303030;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+footer {
+    margin-top: 150px;
+    background: #fff8f0;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    height: 20px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.profession-text a{
+    text-decoration: none;
+    color: #90708c;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Wrapper to contain header, main content */
+.wrapper {
+    flex: 1;
+}
+
+/* Header and Navigation */
+header {
+    background: #fff8f0;
+    color: #303030;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #303030;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+    border-bottom: 1px;
+    border-bottom: 1px solid #fff8f0; }
+
+.nav-links a:hover {
+    border-bottom: 1px solid #575757;
+}
